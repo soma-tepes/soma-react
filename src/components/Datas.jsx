@@ -7,7 +7,8 @@ return (
 
     <div>
      
-    <ul><h3><p>Personal</p></h3> 
+    <ul><h3>
+      <p>Personal</p></h3> 
      <li>Name: {Personal.Nombre}</li>  
      <li>Edad: {Personal.Edad}</li> 
      <li>Movie Favorite: {Personal.Movie_Favorite}</li> 

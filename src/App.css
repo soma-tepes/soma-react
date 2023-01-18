@@ -22,7 +22,7 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(160deg);
   }
 }
 
@@ -41,8 +41,8 @@
 }
 
 .container {display: grid;  
-           grid-template-areas: "persona hobbies comida"
-                                 ". sotck .";
+           grid-template-areas: "persona hobbies" 
+                                "comida  sotck ";
                                 gap: 20px;
                                 
             
@@ -64,3 +64,4 @@ align-items: flex-start;justify-content: center;
 .container div:nth-child(3){grid-area: comida;background-color: gray;}
 .container div:nth-child(4){grid-area: sotck;background-color: bisque;}
 
+.container div:nth-child(1):hover{ color:aquamarine; background-color: purple;}
